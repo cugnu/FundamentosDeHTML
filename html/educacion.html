@@ -8,7 +8,7 @@
   <body>
     <header>
       <svg>
-    	   <image width="27%" height="100%"xlink:href="../images/logo.svg"></image>
+    	   <image width="300px" height="150px" xlink:href="../images/logo.svg"></image>
       </svg>
       <h1>Hoja de Vida</h1>
       <h2>Ariel Alberto Cugnu</h2>
@@ -26,7 +26,72 @@
       </p>
     </nav>
     <section>
-
+      <article>
+        <h2>Educación</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+          <thead>
+  				  <tr>
+  					  <th>Año</th>
+              <th>Institución</th>
+              <th>Lugar</th>
+              <th>¿Culminó?</th>
+            </tr>
+          </thead>
+    			<tbody>
+    				<tr>
+    					<td>2000</td>
+    					<td>Escuela Técnica Nro. 35</td>
+    					<td>Buenos Aires</td>
+    					<td>Si</td>
+    				</tr>
+    				<tr>
+    					<td>2010</td>
+    					<td>Universidad Tecnológica Nacional</td>
+    					<td>Buenos Aires</td>
+    					<td>Si</td>
+    				</tr>
+    			</tbody>
+    		</table>
+      </article>
+      <br>
+      <article>
+        <form name="estudios">
+              <legend><h2>Agregar Estudios</h2></legend>
+              <p>
+                <label for="anio">Año:</label>
+                <select id="anio">
+                  <option>2002</option>
+                  <option>2003</option>
+                  <option>2004</option>
+                  <option>2005</option>
+                  <option>2006</option>
+                  <option>2007</option>
+                  <option>2008</option>
+                  <option>2009</option>
+                  <option>2010</option>
+                  <option>2011</option>
+                  <option>2012</option>
+                  <option>2013</option>
+                  <option>2014</option>
+                  <option>2015</option>
+                  <option>2016</option>
+                  <option>2017</option>
+                  <option>2018</option>
+                </select>
+              </p>
+              <p>
+                <label for="institucion">Institución:</label>
+                <input type="text" id="institucion" required>
+              </p>
+              <p>
+                <label for="lugar">Lugar:</label>
+                <textarea id="lugar" name="lugar" rows="4" cols="50"></textarea>
+              </p>
+              <p>
+                <input type="submit" value="Enviar">
+              </p>
+        </form>
+      </article>
     </section>
     <br>
     <br>
